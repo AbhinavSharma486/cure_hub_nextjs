@@ -185,7 +185,7 @@
 
   /* =====  SHADCN OVERRIDES */
   .shad-primary-btn {
-    @apply bg-green-500 text-white !important;
+    @apply bg-[#4a9930] text-white !important;
   }
 
   .shad-danger-btn {
