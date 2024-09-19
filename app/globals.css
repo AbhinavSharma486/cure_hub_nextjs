@@ -67,7 +67,7 @@
   }
 
   .side-img {
-    @apply hidden h-full object-cover md:block;
+    @apply hidden h-[99vh] object-cover md:block;
   }
 
   .copyright {

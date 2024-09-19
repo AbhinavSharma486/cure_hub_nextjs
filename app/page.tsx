@@ -1,6 +1,7 @@
-import PatientForms from "@/components/forms/PatientForms";
 import Image from "next/image";
 import Link from "next/link";
+
+import { PatientForm } from "@/components/forms/PatientForms";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
             className="mb-8 h-16 w-fit"
           />
 
-          <PatientForms />
+          <PatientForm />
 
           <div className="text-14-regular mt-12 flex justify-between">
             <p className="justify-items-end text-dark-600 xl:text-left">
@@ -33,7 +34,7 @@ export default function Home() {
 
       <Image
         src="/home/Designer0.jpeg"
-        height={1000}
+        height={95}
         width={1000}
         alt="patient"
         className="side-img max-w-[50%]"
