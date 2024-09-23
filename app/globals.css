@@ -70,6 +70,12 @@
     @apply hidden h-[99vh] object-cover md:block;
   }
 
+  @media (max-width: 998px) {
+    .hidden-when-width-lessthan-998 {
+      @apply hidden;
+    }
+  }
+
   .copyright {
     @apply text-14-regular justify-items-end text-center text-dark-600 xl:text-left;
   }

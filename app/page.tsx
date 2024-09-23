@@ -10,7 +10,7 @@ export default function Home() {
       {/* TODO : OTP verification | Passkey Modal */}
 
       <section className="remove-scrollbar container w-1/2 my-auto">
-        <div className="sub-container max-w-[496px]">
+        <div className="sub-container max-w-[896px]">
           <Image
             src="/assets/icons/cureHub.png"
             height={1000}
