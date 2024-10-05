@@ -22,7 +22,7 @@ const Success = async ({ params: { userId }, searchParams }: SearchParamProps) =
             height={1000}
             width={1000}
             alt='logo'
-            className='h-16 w-fit'
+            className='h-16 w-fit cursor-pointer'
           />
         </Link>
 
