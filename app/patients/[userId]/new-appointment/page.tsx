@@ -33,11 +33,11 @@ export default async function NewAppointment({ params: { userId } }: SearchParam
       </section>
 
       <Image
-        src="/assets/images/appointment-img.png"
-        height={95}
+        src="/home/Designer4.jpeg"
+        height={1000}
         width={1000}
         alt="appointment"
-        className="side-img max-w-[390px] bg-bottom"
+        className="side-img max-w-[50%] bg-bottom"
       />
     </div>
   );

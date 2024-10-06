@@ -67,7 +67,7 @@
   }
 
   .side-img {
-    @apply hidden h-[99vh] object-cover md:block;
+    @apply hidden h-auto object-cover md:block;
   }
 
   @media (max-width: 998px) {

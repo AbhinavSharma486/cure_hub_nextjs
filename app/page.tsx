@@ -15,8 +15,8 @@ export default function Home({ searchParams }: SearchParamProps) {
         isAdmin && <PasskeyModal />
       }
 
-      <section className="remove-scrollbar container w-1/2 my-auto">
-        <div className="sub-container max-w-[896px]">
+      <section className="remove-scrollbar container my-auto">
+        <div className="sub-container max-w-[800px]">
           <Image
             src="/assets/icons/cureHub.png"
             height={1000}
@@ -39,7 +39,7 @@ export default function Home({ searchParams }: SearchParamProps) {
       </section>
 
       <Image
-        src="/home/Designer0.jpeg"
+        src="/home/HomePage.jpeg"
         height={95}
         width={1000}
         alt="patient"
